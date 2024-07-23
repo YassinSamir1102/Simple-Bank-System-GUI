@@ -12,8 +12,7 @@ class App():
     def __init__(self):
         self.root = Tk()
         self.root.title('Bank System')
-        self.root.geometry('375x375')
-        self.root.iconbitmap('AppLogo.ico')
+        self.root.geometry('375x375')
         
         self.root.eval('tk::PlaceWindow . center')
 
